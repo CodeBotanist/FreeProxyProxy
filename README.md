@@ -2,6 +2,8 @@
 
 `autoproxy` is a local HTTPS proxy relay written in Node.js.
 
+中文文档: [README.zh-CN.md](README.zh-CN.md)
+
 It fetches public proxies from `https://free-proxy-list.net/en/`, keeps only
 entries where both `Google = yes` and `Https = yes`, and forwards incoming
 `CONNECT` requests to the filtered upstream proxy pool.
@@ -35,6 +37,7 @@ entries where both `Google = yes` and `Https = yes`, and forwards incoming
 |- index.js
 |- package.json
 |- README.md
+|- README.zh-CN.md
 `- LICENSE
 ```
 
