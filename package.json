@@ -1,0 +1,10 @@
+{
+  "name": "autoproxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auto-refreshing HTTPS proxy relay based on free-proxy-list.net",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
