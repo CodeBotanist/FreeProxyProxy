@@ -8,6 +8,21 @@ It fetches public proxies from `https://free-proxy-list.net/en/`, keeps only
 entries where both `Google = yes` and `Https = yes`, and forwards incoming
 `CONNECT` requests to the filtered upstream proxy pool.
 
+> ⚠️ **For Learning and Research Purposes Only**
+>
+> This project is intended solely as a learning exercise and technical
+> demonstration. Free public proxies are inherently untrusted third-party
+> servers — they may be unstable, inject malicious content, intercept
+> traffic, or go offline without notice. **Never use this project to handle
+> sensitive data, credentials, or any production workload.**
+>
+> If you need a reliable proxy for real-world use, please purchase a
+> trustworthy commercial proxy service.
+>
+> **The author(s) of this project accept no responsibility or liability for
+> any loss, damage, security incident, legal issue, or other consequence
+> arising directly or indirectly from the use of this software.**
+
 ## Features
 
 - Auto-fetch proxy list from `free-proxy-list.net/en/`
@@ -119,11 +134,20 @@ actually relayed through upstream proxies.
 3. `502 Bad Gateway`
    - All candidate upstream proxies failed for this connection attempt.
 
-## Security and Compliance
+## Security and Disclaimer
 
-- Public free proxies are inherently unstable and risky.
-- Do not use this setup for sensitive or production-critical traffic.
-- Make sure your use complies with applicable laws and target-site terms.
+- **Free public proxies are inherently unstable and risky.** They are operated
+  by unknown third parties and may snoop on, tamper with, or drop your traffic
+  at any time.
+- **This project is for learning purposes only.** Do not use it for sensitive,
+  personal, or production-critical traffic.
+- **For production use**, please purchase a reputable commercial proxy service
+  instead of relying on free public proxies.
+- **The author(s) disclaim all liability** for any damage, data loss, security
+  breach, or legal consequence resulting from the use of this software. Use at
+  your own risk.
+- Make sure your use complies with applicable laws and target-site terms of
+  service.
 
 ## License
 
